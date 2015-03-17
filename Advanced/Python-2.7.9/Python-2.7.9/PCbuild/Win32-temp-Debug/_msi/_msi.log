@@ -1,0 +1,17 @@
+﻿Build started 3/5/2015 8:50:34 AM.
+     1>Project "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\_msi.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\Include /I..\PC /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /Od /Oy- /D Py_BUILD_CORE_MODULE /D _DEBUG /D _WIN32 /D _WINDLL /GF /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\_msi\\" /Fd"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\_msi\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\PC\_msi.c
+         _msi.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\_msi.dll) does not match the Linker's OutputFile property value (E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\_msi_d.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1194,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(_msi) does not match the Linker's OutputFile property value (_msi_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\_msi_d.pyd" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\\" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" fci.lib msi.lib rpcrt4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\_msi_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x1D160000" /DYNAMICBASE:NO /IMPLIB:"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\_msi.lib" /MACHINE:X86 /SAFESEH /DLL "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\_msi\_msi.obj"
+         "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\python27_d.lib"
+     1>LINK : fatal error LNK1181: cannot open input file 'fci.lib'
+     1>Done Building Project "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\_msi.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.72

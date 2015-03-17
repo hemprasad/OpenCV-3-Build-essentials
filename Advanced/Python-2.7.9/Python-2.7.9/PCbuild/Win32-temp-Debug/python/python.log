@@ -1,0 +1,21 @@
+﻿Build started 3/5/2015 8:50:33 AM.
+     1>Project "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\python.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\Include /I..\PC /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /Od /Ob1 /Oy- /D _CONSOLE /D _DEBUG /D _WIN32 /GF /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\python\\" /Fd"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\python\vc120.pdb" /FR"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\python\\" /Gd /TC /analyze- /errorReport:prompt ..\Modules\python.c
+         python.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /l"0x0409" /I..\Include /I..\PC /I..\Include /nologo /fo"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\python\python_exe.res" ..\PC\python_exe.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\python.exe) does not match the Linker's OutputFile property value (E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\python_d.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(python) does not match the Linker's OutputFile property value (python_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\python_d.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\\" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\python.pdb" /SUBSYSTEM:CONSOLE /STACK:"2000000" /TLBID:1 /BASE:"0x1d000000" /DYNAMICBASE:NO /IMPLIB:"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\python.lib" /MACHINE:X86 /SAFESEH "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\python\python_exe.res"
+         "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\python\python.obj"
+         "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\python27_d.lib"
+         python.vcxproj -> E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\python.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\python.bsc" "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\python\python.sbr"
+     1>Done Building Project "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\python.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15

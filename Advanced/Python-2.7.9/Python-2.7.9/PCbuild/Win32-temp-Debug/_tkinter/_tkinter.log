@@ -1,0 +1,14 @@
+﻿Build started 3/5/2015 8:50:34 AM.
+     1>Project "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\_tkinter.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\externals\tcltk\include /I..\Include /I..\PC /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /Od /Oy- /D WITH_APPINIT /D Py_BUILD_CORE_MODULE /D _DEBUG /D _WIN32 /D _WINDLL /GF /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\_tkinter\\" /Fd"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\_tkinter\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\Modules\tkappinit.c ..\Modules\_tkinter.c
+         tkappinit.c
+     1>..\Modules\tkappinit.c(16): fatal error C1083: Cannot open include file: 'tcl.h': No such file or directory
+         _tkinter.c
+     1>..\Modules\_tkinter.c(70): fatal error C1083: Cannot open include file: 'tcl.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\_tkinter.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.81

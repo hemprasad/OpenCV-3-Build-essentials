@@ -1,0 +1,25 @@
+﻿Build started 3/5/2015 8:50:35 AM.
+     1>Project "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\pyexpat.vcxproj" on node 9 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\..\Modules\expat /I..\Include /I..\PC /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /Od /Oy- /D PYEXPAT_EXPORTS /D HAVE_EXPAT_H /D XML_NS /D XML_DTD /D BYTEORDER=1234 /D XML_CONTEXT_BYTES=1024 /D XML_STATIC /D HAVE_MEMMOVE /D Py_BUILD_CORE_MODULE /D _DEBUG /D _WIN32 /D _WINDLL /GF /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\pyexpat\\" /Fd"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\pyexpat\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\Modules\expat\xmlparse.c ..\Modules\expat\xmlrole.c ..\Modules\expat\xmltok.c ..\Modules\pyexpat.c
+         xmlparse.c
+         xmlrole.c
+         xmltok.c
+         pyexpat.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\pyexpat.dll) does not match the Linker's OutputFile property value (E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\pyexpat_d.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1194,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.pyd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(pyexpat) does not match the Linker's OutputFile property value (pyexpat_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\pyexpat_d.pyd" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\\" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\pyexpat_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\pyexpat.lib" /MACHINE:X86 /SAFESEH /DLL "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\pyexpat\xmlparse.obj"
+         "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\pyexpat\xmlrole.obj"
+         "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\pyexpat\xmltok.obj"
+         "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\pyexpat\pyexpat.obj"
+         "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\python27_d.lib"
+            Creating library E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\pyexpat.lib and object E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\pyexpat.exp
+         pyexpat.vcxproj -> E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\\pyexpat.dll
+     1>Done Building Project "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\pyexpat.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.60

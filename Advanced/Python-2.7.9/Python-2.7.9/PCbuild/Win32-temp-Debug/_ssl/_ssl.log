@@ -1,0 +1,30 @@
+﻿Build started 3/5/2015 8:50:34 AM.
+     1>Project "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\_ssl.vcxproj" on node 7 (Build target(s)).
+     1>PreBuildEvent:
+         cd "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\"
+         "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\python_d.exe" build_ssl.py Release Win32 -a
+         
+         :VCEnd
+         Can not find a suitable PERL:
+          the following perl interpreters were found:
+           C:\strawberry\perl\bin\perl.exe
+           C:\Program Files (x86)\Git\bin\perl.exe
+          None of these versions appear suitable for building OpenSSL
+          Please install ActivePerl and ensure it appears on your path
+         No Perl installation was found. Existing Makefiles are used.
+         Traceback (most recent call last):
+           File "build_ssl.py", line 243, in <module>
+             main()
+           File "build_ssl.py", line 174, in main
+             for dir in os.listdir(os.path.join(ssl_dir, os.pardir)):
+         WindowsError: [Error 3] The system cannot find the path specified: '..\\externals\\openssl-1.0.1j\\../*.*'
+         [21450 refs]
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(122,5): error MSB3073: The command "cd "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(122,5): error MSB3073: "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\python_d.exe" build_ssl.py Release Win32 -a
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(122,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(122,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\_ssl.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.46

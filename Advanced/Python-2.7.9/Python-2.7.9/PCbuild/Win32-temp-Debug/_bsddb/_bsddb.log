@@ -1,0 +1,11 @@
+﻿Build started 3/5/2015 8:50:33 AM.
+     1>Project "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\_bsddb.vcxproj" on node 7 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\externals\db-4.7.25.0\build_windows" /I"..\externals\db-4.7.25.0\build_windows\.." /I..\Include /I..\PC /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D Py_BUILD_CORE_MODULE /D _DEBUG /D _WIN32 /D _WINDLL /GF /Gm- /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\_bsddb\\" /Fd"E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\Win32-temp-Debug\_bsddb\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\Modules\_bsddb.c
+         _bsddb.c
+     1>e:\opencv-3-build-essentials\advanced\python-2.7.9\python-2.7.9\modules\bsddb.h(104): fatal error C1083: Cannot open include file: 'db.h': No such file or directory
+     1>Done Building Project "E:\OpenCV-3-Build-essentials\Advanced\Python-2.7.9\Python-2.7.9\PCbuild\_bsddb.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.55
